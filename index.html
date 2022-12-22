@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Changing Face Rating</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=DM+Sans&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form class="fr" action="">
+	<label class="fr__label" for="face-rating">How was your experience?</label>
+	<div class="fr__face" role="img" aria-label="Straight face">
+		<div class="fr__face-right-eye" data-right></div>
+		<div class="fr__face-left-eye" data-left></div>
+		<div class="fr__face-mouth-lower" data-mouth-lower></div>
+		<div class="fr__face-mouth-upper" data-mouth-upper></div>
+	</div>
+	<input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
